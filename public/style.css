@@ -91,6 +91,10 @@ video{
     overflow-y: scroll;
 } 
 
+.main__chat__window::-webkit-scrollbar {
+    display: none;
+  }
+
 .main__message__container{
     padding: 22px 12px;
     display: flex;
